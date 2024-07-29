@@ -1,0 +1,85 @@
+.dashboard-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .dashboard-container h1, .dashboard-container h2 {
+    color: #243b55;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    width: 22%;
+    text-align: center;
+  }
+  
+  .stat-card h3 {
+    margin: 0 0 10px;
+    color: #243b55;
+  }
+  
+  .stat-card p {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .dashboard-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+  }
+  
+  .table-container, .chart-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+  }
+  
+  .table-container h2, .chart-container h2 {
+    margin-top: 0;
+    color: #243b55;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #243b55;
+    color: white;
+  }
+  
+  /* Styling for the bar chart container */
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-container canvas {
+    max-width: 100%;
+  }
+  
